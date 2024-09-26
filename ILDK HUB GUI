@@ -1,4 +1,9 @@
 
+--don't fucking copy this >:(
+
+
+
+
 -- Instances: 240 | Scripts: 60 | Modules: 0 | Tags: 0
 local G2L = {};
 
@@ -961,10 +966,11 @@ G2L["83"] = Instance.new("LocalScript", G2L["7d"]);
 
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3
 G2L["84"] = Instance.new("Frame", G2L["42"]);
+G2L["84"]["Visible"] = false;
 G2L["84"]["BorderSizePixel"] = 0;
 G2L["84"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["84"]["Size"] = UDim2.new(0.9943, 0, 1.19116, 0);
-G2L["84"]["Position"] = UDim2.new(-0.00677, 0, 0, 0);
+G2L["84"]["Size"] = UDim2.new(0.98507, 0, 1.2001, 0);
+G2L["84"]["Position"] = UDim2.new(0.00645, 0, -0.00894, 0);
 G2L["84"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["84"]["Name"] = [[tab3]];
 G2L["84"]["BackgroundTransparency"] = 1;
@@ -1132,7 +1138,7 @@ G2L["9a"] = Instance.new("Frame", G2L["84"]);
 G2L["9a"]["BorderSizePixel"] = 0;
 G2L["9a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["9a"]["Size"] = UDim2.new(0.97988, 0, 0.07123, 0);
-G2L["9a"]["Position"] = UDim2.new(0.019, 0, 0.16, 0);
+G2L["9a"]["Position"] = UDim2.new(0.019, 0, 0.18, 0);
 G2L["9a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["9a"]["Name"] = [[SLIDER🔰jump🔰]];
 
@@ -1246,8 +1252,8 @@ G2L["a8"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum
 G2L["a8"]["Size"] = UDim2.new(1.013, 0, 0.07, 0);
 G2L["a8"]["Name"] = [[funcbn]];
 G2L["a8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a8"]["Text"] = [[BANG]];
-G2L["a8"]["Position"] = UDim2.new(-0.00015, 0, 0.33183, 0);
+G2L["a8"]["Text"] = [[LAY ]];
+G2L["a8"]["Position"] = UDim2.new(-0.00015, 0, 0.40738, 0);
 
 
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.funcbn.UICorner
@@ -1303,7 +1309,7 @@ G2L["b1"]["Value"] = true;
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.funcbn.LocalScript.IdleAnimation
 G2L["b2"] = Instance.new("Animation", G2L["ae"]);
 G2L["b2"]["Name"] = [[IdleAnimation]];
-G2L["b2"]["AnimationId"] = [[rbxassetid://138116291051746]];
+G2L["b2"]["AnimationId"] = [[rbxassetid://103163180878793]];
 
 
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.funcbn
@@ -1318,8 +1324,8 @@ G2L["b3"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum
 G2L["b3"]["Size"] = UDim2.new(1.013, 0, 0.07, 0);
 G2L["b3"]["Name"] = [[funcbn]];
 G2L["b3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b3"]["Text"] = [[LAY ]];
-G2L["b3"]["Position"] = UDim2.new(-0.00015, 0, 0.40738, 0);
+G2L["b3"]["Text"] = [[BANG]];
+G2L["b3"]["Position"] = UDim2.new(-0.00015, 0, 0.33183, 0);
 
 
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.funcbn.UICorner
@@ -1375,16 +1381,15 @@ G2L["bc"]["Value"] = true;
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.funcbn.LocalScript.IdleAnimation
 G2L["bd"] = Instance.new("Animation", G2L["b9"]);
 G2L["bd"]["Name"] = [[IdleAnimation]];
-G2L["bd"]["AnimationId"] = [[rbxassetid://103163180878793]];
+G2L["bd"]["AnimationId"] = [[rbxassetid://138116291051746]];
 
 
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.SETTING
 G2L["be"] = Instance.new("Frame", G2L["42"]);
-G2L["be"]["Visible"] = false;
 G2L["be"]["BorderSizePixel"] = 0;
 G2L["be"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["be"]["Size"] = UDim2.new(0.9943, 0, 1.19116, 0);
-G2L["be"]["Position"] = UDim2.new(-0.00677, 0, 0, 0);
+G2L["be"]["Size"] = UDim2.new(0.98661, 0, 1.19116, 0);
+G2L["be"]["Position"] = UDim2.new(0.00381, 0, -0, 0);
 G2L["be"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["be"]["Name"] = [[SETTING]];
 G2L["be"]["BackgroundTransparency"] = 1;
@@ -1402,7 +1407,7 @@ G2L["bf"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["bf"]["BackgroundTransparency"] = 0.65;
 G2L["bf"]["Size"] = UDim2.new(0.35063, 0, 0.03601, 0);
 G2L["bf"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bf"]["Text"] = [[Settings]];
+G2L["bf"]["Text"] = [[  Settings]];
 G2L["bf"]["Name"] = [[tabtitle]];
 G2L["bf"]["Position"] = UDim2.new(-0.03844, 0, 0.02031, 0);
 
@@ -1449,7 +1454,7 @@ G2L["c6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c6"]["TextScaled"] = true;
 G2L["c6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c6"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["c6"]["Size"] = UDim2.new(0, 396, 0, 31);
+G2L["c6"]["Size"] = UDim2.new(0, 372, 0, 31);
 G2L["c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["c6"]["Text"] = [[KILL GUI ]];
 G2L["c6"]["Position"] = UDim2.new(0.02006, 0, 0.07292, 0);
@@ -1497,7 +1502,7 @@ G2L["cd"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["cd"]["TextScaled"] = true;
 G2L["cd"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["cd"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["cd"]["Size"] = UDim2.new(0, 396, 0, 31);
+G2L["cd"]["Size"] = UDim2.new(0, 372, 0, 31);
 G2L["cd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["cd"]["Text"] = [[CREDIT ]];
 G2L["cd"]["Position"] = UDim2.new(0.02006, 0, 0.22663, 0);
@@ -2218,7 +2223,7 @@ local script = G2L["8d"];
 	local title = script.Parent.process
 	
 	
-	title.Text = "WALKSPEED : OFF"
+	title.Text = "WALKSPEED NORMAL - 16 : OFF"
 	
 	local mo = game.Players.LocalPlayer:GetMouse()
 	local sder = script.Parent
@@ -2244,7 +2249,7 @@ local script = G2L["8d"];
 	function UpdateSlider()
 		local output = math.clamp((mo.X-sder.AbsolutePosition.X)/sder.AbsoluteSize.X,0,1)
 		
-		title.Text = "WALKSPEED : " .. tostring(math.round(output*1000))
+		title.Text = "WALKSPEED NORMAL - 16 : " .. tostring(math.round(output*1000))
 		val.Value = output
 		
 		--///////////////////////////
@@ -2350,7 +2355,7 @@ local script = G2L["9b"];
 	local title = script.Parent.process
 	
 	
-	title.Text = "JUMPPOWER : OFF"
+	title.Text = "JUMPPOWER NORMAL - 50 : OFF"
 	
 	local mo = game.Players.LocalPlayer:GetMouse()
 	local sder = script.Parent
@@ -2382,7 +2387,7 @@ local script = G2L["9b"];
 	function UpdateSlider()
 		local output = math.clamp((mo.X-sder.AbsolutePosition.X)/sder.AbsoluteSize.X,0,1)
 		
-		title.Text = "JUMPPOWER : " .. tostring(math.round(output*1000))
+		title.Text = "JUMPPOWER NORMAL - 50 : " .. tostring(math.round(output*1000))
 		val.Value = output
 		
 		--///////////////////////////
@@ -2494,7 +2499,7 @@ local script = G2L["ae"];
 			humanim:Play()
 			humanim.Looped = true
 			toggle = false
-		else
+	    else
 			humanim:Stop()
 			toggle = true
 		end 
@@ -2528,7 +2533,7 @@ local script = G2L["b9"];
 			humanim:Play()
 			humanim.Looped = true
 			toggle = false
-	    else
+		else
 			humanim:Stop()
 			toggle = true
 		end 
