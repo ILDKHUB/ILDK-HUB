@@ -1,8 +1,4 @@
 
---don't fucking copy this >:(
-
-
-
 
 -- Instances: 240 | Scripts: 60 | Modules: 0 | Tags: 0
 local G2L = {};
@@ -966,7 +962,6 @@ G2L["83"] = Instance.new("LocalScript", G2L["7d"]);
 
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3
 G2L["84"] = Instance.new("Frame", G2L["42"]);
-G2L["84"]["Visible"] = false;
 G2L["84"]["BorderSizePixel"] = 0;
 G2L["84"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["84"]["Size"] = UDim2.new(0.98507, 0, 1.2001, 0);
@@ -1138,7 +1133,7 @@ G2L["9a"] = Instance.new("Frame", G2L["84"]);
 G2L["9a"]["BorderSizePixel"] = 0;
 G2L["9a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["9a"]["Size"] = UDim2.new(0.97988, 0, 0.07123, 0);
-G2L["9a"]["Position"] = UDim2.new(0.019, 0, 0.18, 0);
+G2L["9a"]["Position"] = UDim2.new(0.019, 0, 0.22, 0);
 G2L["9a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["9a"]["Name"] = [[SLIDER🔰jump🔰]];
 
@@ -1386,6 +1381,7 @@ G2L["bd"]["AnimationId"] = [[rbxassetid://138116291051746]];
 
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.SETTING
 G2L["be"] = Instance.new("Frame", G2L["42"]);
+G2L["be"]["Visible"] = false;
 G2L["be"]["BorderSizePixel"] = 0;
 G2L["be"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["be"]["Size"] = UDim2.new(0.98661, 0, 1.19116, 0);
@@ -1454,10 +1450,10 @@ G2L["c6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c6"]["TextScaled"] = true;
 G2L["c6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c6"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["c6"]["Size"] = UDim2.new(0, 372, 0, 31);
+G2L["c6"]["Size"] = UDim2.new(0.927, 0, 0.05086, 0);
 G2L["c6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["c6"]["Text"] = [[KILL GUI ]];
-G2L["c6"]["Position"] = UDim2.new(0.02006, 0, 0.07292, 0);
+G2L["c6"]["Position"] = UDim2.new(0.03614, 0, 0.07287, 0);
 
 
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.SETTING.TextButton.UICorner
@@ -1502,10 +1498,10 @@ G2L["cd"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["cd"]["TextScaled"] = true;
 G2L["cd"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["cd"]["FontFace"] = Font.new([[rbxasset://fonts/families/Zekton.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["cd"]["Size"] = UDim2.new(0, 372, 0, 31);
+G2L["cd"]["Size"] = UDim2.new(0.927, 0, 0.05086, 0);
 G2L["cd"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["cd"]["Text"] = [[CREDIT ]];
-G2L["cd"]["Position"] = UDim2.new(0.02006, 0, 0.22663, 0);
+G2L["cd"]["Position"] = UDim2.new(0.03614, 0, 0.27132, 0);
 
 
 -- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.SETTING.TextButton.UICorner
