@@ -1,5 +1,4 @@
 
-
 -- Instances: 240 | Scripts: 60 | Modules: 0 | Tags: 0
 local G2L = {};
 
@@ -1036,32 +1035,32 @@ G2L["8d"] = Instance.new("LocalScript", G2L["8c"]);
 
 
 
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.pros
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.prozs
 G2L["8e"] = Instance.new("Frame", G2L["8c"]);
 G2L["8e"]["BorderSizePixel"] = 0;
 G2L["8e"]["BackgroundColor3"] = Color3.fromRGB(0, 243, 255);
 G2L["8e"]["Size"] = UDim2.new(0.36027, 0, 1, 0);
 G2L["8e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["8e"]["Name"] = [[pros]];
+G2L["8e"]["Name"] = [[prozs]];
 
 
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.pros.UICorner
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.prozs.UICorner
 G2L["8f"] = Instance.new("UICorner", G2L["8e"]);
 
 
 
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.pros.UIGradient
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.prozs.UIGradient
 G2L["90"] = Instance.new("UIGradient", G2L["8e"]);
 G2L["90"]["Offset"] = Vector2.new(0, 10);
 G2L["90"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 255))};
 
 
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.pros.UIGradient.LocalScript
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.prozs.UIGradient.LocalScript
 G2L["91"] = Instance.new("LocalScript", G2L["90"]);
 
 
 
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.checkk
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.checkkk
 G2L["92"] = Instance.new("TextButton", G2L["8c"]);
 G2L["92"]["TextWrapped"] = true;
 G2L["92"]["TextStrokeTransparency"] = 0;
@@ -1073,17 +1072,17 @@ G2L["92"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["92"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["92"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["92"]["BackgroundTransparency"] = 1;
-G2L["92"]["Name"] = [[checkk]];
+G2L["92"]["Name"] = [[checkkk]];
 G2L["92"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["92"]["Text"] = [[]];
 
 
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.Value
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.Val
 G2L["93"] = Instance.new("IntValue", G2L["8c"]);
+G2L["93"]["Name"] = [[Val]];
 
 
-
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.process
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.procevs
 G2L["94"] = Instance.new("TextLabel", G2L["8c"]);
 G2L["94"]["TextWrapped"] = true;
 G2L["94"]["TextStrokeTransparency"] = 0.95;
@@ -1093,26 +1092,26 @@ G2L["94"]["TextSize"] = 19;
 G2L["94"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["94"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["94"]["BackgroundTransparency"] = 1;
-G2L["94"]["Size"] = UDim2.new(0.37477, 0, 1, 0);
+G2L["94"]["Size"] = UDim2.new(0.68156, 0, 1, 0);
 G2L["94"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["94"]["Text"] = [[LOADING FUNCTION NAME...]];
-G2L["94"]["Name"] = [[process]];
+G2L["94"]["Name"] = [[procevs]];
 G2L["94"]["Position"] = UDim2.new(0, 0, -0.01343, 0);
 
 
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.process.UIStroke
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.procevs.UIStroke
 G2L["95"] = Instance.new("UIStroke", G2L["94"]);
 G2L["95"]["Thickness"] = 1.6;
 G2L["95"]["Color"] = Color3.fromRGB(0, 255, 255);
 
 
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.process.UIStroke.UIGradient
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.procevs.UIStroke.UIGradient
 G2L["96"] = Instance.new("UIGradient", G2L["95"]);
 G2L["96"]["Offset"] = Vector2.new(0, 5);
 G2L["96"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 5, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 255, 255))};
 
 
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.process.UIStroke.UIGradient.LocalScript
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.procevs.UIStroke.UIGradient.LocalScript
 G2L["97"] = Instance.new("LocalScript", G2L["96"]);
 
 
@@ -1200,7 +1199,7 @@ G2L["a2"]["TextSize"] = 19;
 G2L["a2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["a2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a2"]["BackgroundTransparency"] = 1;
-G2L["a2"]["Size"] = UDim2.new(0.37477, 0, 1, 0);
+G2L["a2"]["Size"] = UDim2.new(0.68184, 0, 1, 0);
 G2L["a2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["a2"]["Text"] = [[LOADING FUNCTION NAME...]];
 G2L["a2"]["Name"] = [[process]];
@@ -2216,16 +2215,16 @@ local script = G2L["8d"];
 	
 	
 	--แก้ละ
-	local title = script.Parent.process
+	local title = script.Parent.procevs
 	
 	
 	title.Text = "WALKSPEED NORMAL - 16 : OFF"
 	
 	local mo = game.Players.LocalPlayer:GetMouse()
 	local sder = script.Parent
-	local trigger = script.Parent.checkk
-	local pzo = script.Parent.pros
-	local val = script.Parent.Value
+	local trigger = script.Parent.checkkk
+	local pzo = script.Parent.prozs
+	local val = script.Parent.Val
 	
 	
 	
@@ -2301,7 +2300,7 @@ local script = G2L["8d"];
 	
 end;
 task.spawn(C_8d);
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.pros.UIGradient.LocalScript
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.prozs.UIGradient.LocalScript
 local function C_91()
 local script = G2L["91"];
 	while true do
@@ -2310,7 +2309,7 @@ local script = G2L["91"];
 	end
 end;
 task.spawn(C_91);
--- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.process.UIStroke.UIGradient.LocalScript
+-- StarterGui.ildkx hub.guiguigui.Frame.tabfuncton.⭐tabshow.tab3.SLIDER🔰speed🔰.procevs.UIStroke.UIGradient.LocalScript
 local function C_97()
 local script = G2L["97"];
 	while true do
