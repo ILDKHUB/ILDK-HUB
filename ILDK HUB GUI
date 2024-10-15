@@ -1457,10 +1457,10 @@ local script = G2L["5b"];
 	local highlighted = false
 	
 	local function toggleHighlight()
-		local sdFolder = game:GetService("Workspace"):FindFirstChild("Locker")
+	    local sdFolder = game.Workspace:FindFirstChild("Proxypart")
 	    if sdFolder then
 	        for _, part in sdFolder:GetChildren() do
-				if part:IsA("Part") and part.Name == "LockerCollision" then
+	            if part:IsA("Part") and part.Name == "Proxypart" then
 	                local highlight = part:FindFirstChildOfClass("Highlight")
 	                if highlighted then
 	                    if highlight then
