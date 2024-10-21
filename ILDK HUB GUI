@@ -1,11 +1,4 @@
---[=[
- d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
-88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
-88      88    88    88            odD'      88      88    88 88ooo88 
-88  ooo 88    88    88          .88'        88      88    88 88~~~88 
-88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
- Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
-]=]
+
 
 -- Instances: 47 | Scripts: 10 | Modules: 0 | Tags: 0
 local G2L = {};
@@ -125,23 +118,13 @@ G2L["e"]["PaddingBottom"] = UDim.new(0, 10);
 
 -- StarterGui.ishub.sdfsdfsd.sdf.TextButton.LocalScript
 G2L["f"] = Instance.new("LocalScript", G2L["d"]);
+G2L["f"]["Enabled"] = false;
+G2L["f"]["Disabled"] = true;
 
 
-
--- StarterGui.ishub.sdfsdfsd.TextLabel
-G2L["10"] = Instance.new("TextLabel", G2L["2"]);
-G2L["10"]["TextWrapped"] = true;
-G2L["10"]["BorderSizePixel"] = 0;
-G2L["10"]["TextScaled"] = true;
-G2L["10"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["10"]["TextSize"] = 14;
-G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["10"]["TextColor3"] = Color3.fromRGB(0, 252, 255);
-G2L["10"]["BackgroundTransparency"] = 1;
-G2L["10"]["Size"] = UDim2.new(0, 200, 0, 50);
-G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["10"]["Text"] = [[we sorry for this script not free and thx for use ildk hub.]];
-G2L["10"]["Position"] = UDim2.new(0.24422, 0, 0.18327, 0);
+-- StarterGui.ishub.sdfsdfsd.sdf.TextButton.TeleportOnClick
+G2L["10"] = Instance.new("LocalScript", G2L["d"]);
+G2L["10"]["Name"] = [[TeleportOnClick]];
 
 
 -- StarterGui.ishub.sdfsdfsd.TextLabel
@@ -154,10 +137,10 @@ G2L["11"]["TextSize"] = 14;
 G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["11"]["TextColor3"] = Color3.fromRGB(0, 252, 255);
 G2L["11"]["BackgroundTransparency"] = 1;
-G2L["11"]["Size"] = UDim2.new(0, 200, 0, 21);
+G2L["11"]["Size"] = UDim2.new(0, 200, 0, 50);
 G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["11"]["Text"] = [[if buy it press check]];
-G2L["11"]["Position"] = UDim2.new(0.24165, 0, 0.61753, 0);
+G2L["11"]["Text"] = [[we sorry for this script not free and thx for use ildk hub.]];
+G2L["11"]["Position"] = UDim2.new(0.24422, 0, 0.18327, 0);
 
 
 -- StarterGui.ishub.sdfsdfsd.TextLabel
@@ -170,112 +153,121 @@ G2L["12"]["TextSize"] = 14;
 G2L["12"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["12"]["TextColor3"] = Color3.fromRGB(0, 252, 255);
 G2L["12"]["BackgroundTransparency"] = 1;
-G2L["12"]["Size"] = UDim2.new(0, 200, 0, 18);
+G2L["12"]["Size"] = UDim2.new(0, 200, 0, 21);
 G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["12"]["Text"] = [[reportbug | @dkhub IG]];
-G2L["12"]["Position"] = UDim2.new(0.24422, 0, 0.45817, 0);
+G2L["12"]["Text"] = [[if buy it press check]];
+G2L["12"]["Position"] = UDim2.new(0.24165, 0, 0.61753, 0);
 
 
--- StarterGui.ishub.sdfsdfsd.sdf
-G2L["13"] = Instance.new("Frame", G2L["2"]);
+-- StarterGui.ishub.sdfsdfsd.TextLabel
+G2L["13"] = Instance.new("TextLabel", G2L["2"]);
+G2L["13"]["TextWrapped"] = true;
 G2L["13"]["BorderSizePixel"] = 0;
-G2L["13"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["13"]["Size"] = UDim2.new(1.0007, 0, 0.00209, 0);
-G2L["13"]["Position"] = UDim2.new(-0.0007, 0, 0.14161, 0);
+G2L["13"]["TextScaled"] = true;
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13"]["TextSize"] = 14;
+G2L["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["13"]["TextColor3"] = Color3.fromRGB(0, 252, 255);
+G2L["13"]["BackgroundTransparency"] = 1;
+G2L["13"]["Size"] = UDim2.new(0, 200, 0, 18);
 G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["13"]["Name"] = [[sdf]];
-G2L["13"]["BackgroundTransparency"] = 0.35;
+G2L["13"]["Text"] = [[reportbug | @dkhub IG]];
+G2L["13"]["Position"] = UDim2.new(0.24422, 0, 0.45817, 0);
+
+
+-- StarterGui.ishub.sdfsdfsd.sdf
+G2L["14"] = Instance.new("Frame", G2L["2"]);
+G2L["14"]["BorderSizePixel"] = 0;
+G2L["14"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14"]["Size"] = UDim2.new(1.0007, 0, 0.00209, 0);
+G2L["14"]["Position"] = UDim2.new(-0.0007, 0, 0.14161, 0);
+G2L["14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14"]["Name"] = [[sdf]];
+G2L["14"]["BackgroundTransparency"] = 0.35;
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.UICorner
-G2L["14"] = Instance.new("UICorner", G2L["13"]);
+G2L["15"] = Instance.new("UICorner", G2L["14"]);
 
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.UIStroke
-G2L["15"] = Instance.new("UIStroke", G2L["13"]);
-G2L["15"]["Thickness"] = 0.8;
-G2L["15"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["16"] = Instance.new("UIStroke", G2L["14"]);
+G2L["16"]["Thickness"] = 0.8;
+G2L["16"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.UIStroke.UIGradient
-G2L["16"] = Instance.new("UIGradient", G2L["15"]);
-G2L["16"]["Rotation"] = 34;
-G2L["16"]["Offset"] = Vector2.new(0.6, 0.2);
-G2L["16"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(0.493, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+G2L["17"] = Instance.new("UIGradient", G2L["16"]);
+G2L["17"]["Rotation"] = 34;
+G2L["17"]["Offset"] = Vector2.new(0.6, 0.2);
+G2L["17"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(0.493, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.UIStroke.UIGradient.LocalScript
-G2L["17"] = Instance.new("LocalScript", G2L["16"]);
+G2L["18"] = Instance.new("LocalScript", G2L["17"]);
 
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf
-G2L["18"] = Instance.new("Frame", G2L["2"]);
-G2L["18"]["BorderSizePixel"] = 0;
-G2L["18"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["18"]["Size"] = UDim2.new(0.45572, 0, 0.17341, 0);
-G2L["18"]["Position"] = UDim2.new(0.52886, 0, 0.79101, 0);
-G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["18"]["Name"] = [[sdf]];
-G2L["18"]["BackgroundTransparency"] = 0.35;
+G2L["19"] = Instance.new("Frame", G2L["2"]);
+G2L["19"]["BorderSizePixel"] = 0;
+G2L["19"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19"]["Size"] = UDim2.new(0.45572, 0, 0.17341, 0);
+G2L["19"]["Position"] = UDim2.new(0.52886, 0, 0.79101, 0);
+G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19"]["Name"] = [[sdf]];
+G2L["19"]["BackgroundTransparency"] = 0.35;
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.UICorner
-G2L["19"] = Instance.new("UICorner", G2L["18"]);
+G2L["1a"] = Instance.new("UICorner", G2L["19"]);
 
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.UIStroke
-G2L["1a"] = Instance.new("UIStroke", G2L["18"]);
-G2L["1a"]["Thickness"] = 0.8;
-G2L["1a"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["1b"] = Instance.new("UIStroke", G2L["19"]);
+G2L["1b"]["Thickness"] = 0.8;
+G2L["1b"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.UIStroke.UIGradient
-G2L["1b"] = Instance.new("UIGradient", G2L["1a"]);
-G2L["1b"]["Rotation"] = 34;
-G2L["1b"]["Offset"] = Vector2.new(0.6, 0.2);
-G2L["1b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(0.493, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+G2L["1c"] = Instance.new("UIGradient", G2L["1b"]);
+G2L["1c"]["Rotation"] = 34;
+G2L["1c"]["Offset"] = Vector2.new(0.6, 0.2);
+G2L["1c"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(0.493, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.UIStroke.UIGradient.LocalScript
-G2L["1c"] = Instance.new("LocalScript", G2L["1b"]);
+G2L["1d"] = Instance.new("LocalScript", G2L["1c"]);
 
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.TextButton
-G2L["1d"] = Instance.new("TextButton", G2L["18"]);
-G2L["1d"]["TextWrapped"] = true;
-G2L["1d"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
-G2L["1d"]["BorderSizePixel"] = 0;
-G2L["1d"]["TextSize"] = 14;
-G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 243, 255);
-G2L["1d"]["TextScaled"] = true;
-G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["1d"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["1d"]["BackgroundTransparency"] = 1;
-G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d"]["Text"] = [[CHECK]];
+G2L["1e"] = Instance.new("TextButton", G2L["19"]);
+G2L["1e"]["TextWrapped"] = true;
+G2L["1e"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+G2L["1e"]["BorderSizePixel"] = 0;
+G2L["1e"]["TextSize"] = 14;
+G2L["1e"]["TextColor3"] = Color3.fromRGB(0, 243, 255);
+G2L["1e"]["TextScaled"] = true;
+G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1e"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["1e"]["BackgroundTransparency"] = 1;
+G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e"]["Text"] = [[CHECK]];
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.TextButton.UIPadding
-G2L["1e"] = Instance.new("UIPadding", G2L["1d"]);
-G2L["1e"]["PaddingTop"] = UDim.new(0, 10);
-G2L["1e"]["PaddingBottom"] = UDim.new(0, 10);
+G2L["1f"] = Instance.new("UIPadding", G2L["1e"]);
+G2L["1f"]["PaddingTop"] = UDim.new(0, 10);
+G2L["1f"]["PaddingBottom"] = UDim.new(0, 10);
 
 
 -- StarterGui.ishub.sdfsdfsd.sdf.TextButton.CheckShirtOwnership
-G2L["1f"] = Instance.new("LocalScript", G2L["1d"]);
-G2L["1f"]["Enabled"] = false;
-G2L["1f"]["Name"] = [[CheckShirtOwnership]];
-G2L["1f"]["Disabled"] = true;
-
-
--- StarterGui.ishub.sdfsdfsd.sdf.TextButton.TeleportOnClick
-G2L["20"] = Instance.new("LocalScript", G2L["1d"]);
-G2L["20"]["Name"] = [[TeleportOnClick]];
+G2L["20"] = Instance.new("LocalScript", G2L["1e"]);
+G2L["20"]["Name"] = [[CheckShirtOwnership]];
 
 
 -- StarterGui.ishub.notify
@@ -424,48 +416,9 @@ local script = G2L["c"];
 	end
 end;
 task.spawn(C_c);
--- StarterGui.ishub.sdfsdfsd.sdf.TextButton.LocalScript
-local function C_f()
-local script = G2L["f"];
-	local button = script.Parent
-	local shirtId = 137619692576418
-	local MarketplaceService = game:GetService("MarketplaceService")
-	local Players = game:GetService("Players")
-	
-	button.MouseButton1Click:Connect(function()
-		local player = Players.LocalPlayer
-		MarketplaceService:PromptPurchase(player, shirtId)
-	end)
-	
-	MarketplaceService.PromptPurchaseFinished:Connect(function(player, assetId, isPurchased)
-		if assetId == shirtId and isPurchased then
-			Players:Kick("VERIFY SUSSECS NOW YOU CAN RUN THE SCRIPT!")
-		end
-	end)
-	
-end;
-task.spawn(C_f);
--- StarterGui.ishub.sdfsdfsd.sdf.UIStroke.UIGradient.LocalScript
-local function C_17()
-local script = G2L["17"];
-	while true do
-		wait()
-		script.Parent.Rotation += 2
-	end
-end;
-task.spawn(C_17);
--- StarterGui.ishub.sdfsdfsd.sdf.UIStroke.UIGradient.LocalScript
-local function C_1c()
-local script = G2L["1c"];
-	while true do
-		wait()
-		script.Parent.Rotation += 2
-	end
-end;
-task.spawn(C_1c);
 -- StarterGui.ishub.sdfsdfsd.sdf.TextButton.TeleportOnClick
-local function C_20()
-local script = G2L["20"];
+local function C_10()
+local script = G2L["10"];
 	local TeleportService = game:GetService("TeleportService")
 	local Players = game:GetService("Players")
 	
@@ -475,6 +428,50 @@ local script = G2L["20"];
 	button.MouseButton1Click:Connect(function()
 	    local player = Players.LocalPlayer
 	    TeleportService:Teleport(placeId, player)
+	end)
+	
+	
+end;
+task.spawn(C_10);
+-- StarterGui.ishub.sdfsdfsd.sdf.UIStroke.UIGradient.LocalScript
+local function C_18()
+local script = G2L["18"];
+	while true do
+		wait()
+		script.Parent.Rotation += 2
+	end
+end;
+task.spawn(C_18);
+-- StarterGui.ishub.sdfsdfsd.sdf.UIStroke.UIGradient.LocalScript
+local function C_1d()
+local script = G2L["1d"];
+	while true do
+		wait()
+		script.Parent.Rotation += 2
+	end
+end;
+task.spawn(C_1d);
+-- StarterGui.ishub.sdfsdfsd.sdf.TextButton.CheckShirtOwnership
+local function C_20()
+local script = G2L["20"];
+	local Players = game:GetService("Players")
+	local MarketplaceService = game:GetService("MarketplaceService")
+	
+	local button = script.Parent
+	local shirtId = 137619692576418
+	
+	button.MouseButton1Click:Connect(function()
+	    local player = Players.LocalPlayer
+	    local success, hasShirt = pcall(function()
+	        return MarketplaceService:PlayerOwnsAsset(player, shirtId)
+	    end)
+	    
+	    if success and hasShirt then
+			script.Parent.Parent.Parent.Parent.notify.Visible = true
+			script.Parent.Parent.Parent.Parent.sdfsdfsd.Visible = false
+	    else
+	        print("Player does not own the shirt or an error occurred.")
+	    end
 	end)
 	
 	
