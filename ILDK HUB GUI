@@ -1,6 +1,13 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
 
-
--- Instances: 47 | Scripts: 10 | Modules: 0 | Tags: 0
+-- Instances: 48 | Scripts: 11 | Modules: 0 | Tags: 0
 local G2L = {};
 
 -- StarterGui.ishub
@@ -270,131 +277,138 @@ G2L["20"] = Instance.new("LocalScript", G2L["1e"]);
 G2L["20"]["Name"] = [[CheckShirtOwnership]];
 
 
+-- StarterGui.ishub.sdfsdfsd.sdf.TextButton.CheckShirtOnClick
+G2L["21"] = Instance.new("LocalScript", G2L["1e"]);
+G2L["21"]["Enabled"] = false;
+G2L["21"]["Name"] = [[CheckShirtOnClick]];
+G2L["21"]["Disabled"] = true;
+
+
 -- StarterGui.ishub.notify
-G2L["21"] = Instance.new("Frame", G2L["1"]);
-G2L["21"]["Visible"] = false;
-G2L["21"]["BorderSizePixel"] = 0;
-G2L["21"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["21"]["Size"] = UDim2.new(0.44278, 0, 0.58978, 0);
-G2L["21"]["Position"] = UDim2.new(0.27729, 0, 0.20124, 0);
-G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["21"]["Name"] = [[notify]];
-G2L["21"]["BackgroundTransparency"] = 0.7;
+G2L["22"] = Instance.new("Frame", G2L["1"]);
+G2L["22"]["Visible"] = false;
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Size"] = UDim2.new(0.44278, 0, 0.58978, 0);
+G2L["22"]["Position"] = UDim2.new(0.27729, 0, 0.20124, 0);
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Name"] = [[notify]];
+G2L["22"]["BackgroundTransparency"] = 0.7;
 
 
 -- StarterGui.ishub.notify.sdf
-G2L["22"] = Instance.new("Frame", G2L["21"]);
-G2L["22"]["BorderSizePixel"] = 0;
-G2L["22"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["22"]["Size"] = UDim2.new(0.45572, 0, 0.17341, 0);
-G2L["22"]["Position"] = UDim2.new(0.01729, 0, 0.79101, 0);
-G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["22"]["Name"] = [[sdf]];
-G2L["22"]["BackgroundTransparency"] = 0.35;
+G2L["23"] = Instance.new("Frame", G2L["22"]);
+G2L["23"]["BorderSizePixel"] = 0;
+G2L["23"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["Size"] = UDim2.new(0.45572, 0, 0.17341, 0);
+G2L["23"]["Position"] = UDim2.new(0.01729, 0, 0.79101, 0);
+G2L["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["Name"] = [[sdf]];
+G2L["23"]["BackgroundTransparency"] = 0.35;
 
 
 -- StarterGui.ishub.notify.sdf.UICorner
-G2L["23"] = Instance.new("UICorner", G2L["22"]);
+G2L["24"] = Instance.new("UICorner", G2L["23"]);
 
 
 
 -- StarterGui.ishub.notify.sdf.UIStroke
-G2L["24"] = Instance.new("UIStroke", G2L["22"]);
-G2L["24"]["Thickness"] = 0.8;
-G2L["24"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["25"] = Instance.new("UIStroke", G2L["23"]);
+G2L["25"]["Thickness"] = 0.8;
+G2L["25"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 
 -- StarterGui.ishub.notify.sdf.UIStroke.UIGradient
-G2L["25"] = Instance.new("UIGradient", G2L["24"]);
-G2L["25"]["Rotation"] = 34;
-G2L["25"]["Offset"] = Vector2.new(0.6, 0.2);
-G2L["25"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(0.493, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+G2L["26"] = Instance.new("UIGradient", G2L["25"]);
+G2L["26"]["Rotation"] = 34;
+G2L["26"]["Offset"] = Vector2.new(0.6, 0.2);
+G2L["26"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(0.493, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
 
 
 -- StarterGui.ishub.notify.sdf.UIStroke.UIGradient.LocalScript
-G2L["26"] = Instance.new("LocalScript", G2L["25"]);
+G2L["27"] = Instance.new("LocalScript", G2L["26"]);
 
 
 
 -- StarterGui.ishub.notify.sdf.TextButton
-G2L["27"] = Instance.new("TextButton", G2L["22"]);
-G2L["27"]["TextWrapped"] = true;
-G2L["27"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
-G2L["27"]["BorderSizePixel"] = 0;
-G2L["27"]["TextSize"] = 14;
-G2L["27"]["TextColor3"] = Color3.fromRGB(0, 243, 255);
-G2L["27"]["TextScaled"] = true;
-G2L["27"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["27"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["27"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["27"]["BackgroundTransparency"] = 1;
-G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["27"]["Text"] = [[CLOSE]];
+G2L["28"] = Instance.new("TextButton", G2L["23"]);
+G2L["28"]["TextWrapped"] = true;
+G2L["28"]["TextTruncate"] = Enum.TextTruncate.AtEnd;
+G2L["28"]["BorderSizePixel"] = 0;
+G2L["28"]["TextSize"] = 14;
+G2L["28"]["TextColor3"] = Color3.fromRGB(0, 243, 255);
+G2L["28"]["TextScaled"] = true;
+G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["28"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["28"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["28"]["BackgroundTransparency"] = 1;
+G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["28"]["Text"] = [[CLOSE]];
 
 
 -- StarterGui.ishub.notify.sdf.TextButton.UIPadding
-G2L["28"] = Instance.new("UIPadding", G2L["27"]);
-G2L["28"]["PaddingTop"] = UDim.new(0, 10);
-G2L["28"]["PaddingBottom"] = UDim.new(0, 10);
+G2L["29"] = Instance.new("UIPadding", G2L["28"]);
+G2L["29"]["PaddingTop"] = UDim.new(0, 10);
+G2L["29"]["PaddingBottom"] = UDim.new(0, 10);
 
 
 -- StarterGui.ishub.notify.sdf.TextButton.GamePassPurchase
-G2L["29"] = Instance.new("LocalScript", G2L["27"]);
-G2L["29"]["Name"] = [[GamePassPurchase]];
+G2L["2a"] = Instance.new("LocalScript", G2L["28"]);
+G2L["2a"]["Name"] = [[GamePassPurchase]];
 
 
 -- StarterGui.ishub.notify.TextLabel
-G2L["2a"] = Instance.new("TextLabel", G2L["21"]);
-G2L["2a"]["TextWrapped"] = true;
-G2L["2a"]["BorderSizePixel"] = 0;
-G2L["2a"]["TextScaled"] = true;
-G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2a"]["TextSize"] = 14;
-G2L["2a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2a"]["TextColor3"] = Color3.fromRGB(0, 252, 255);
-G2L["2a"]["BackgroundTransparency"] = 1;
-G2L["2a"]["Size"] = UDim2.new(0, 394, 0, 159);
-G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2a"]["Text"] = [[WE very sorry script down becuse something function error we gonna make new gui/hub soon but old name is ILDK HUB THANK YOU we will back soon we very sorry for this. :(]];
-G2L["2a"]["Position"] = UDim2.new(0.11102, 0, 0.29088, 0);
-
-
--- StarterGui.ishub.notify.TextLabel
-G2L["2b"] = Instance.new("TextLabel", G2L["21"]);
+G2L["2b"] = Instance.new("TextLabel", G2L["22"]);
 G2L["2b"]["TextWrapped"] = true;
 G2L["2b"]["BorderSizePixel"] = 0;
 G2L["2b"]["TextScaled"] = true;
 G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["2b"]["TextSize"] = 14;
-G2L["2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["2b"]["TextColor3"] = Color3.fromRGB(0, 255, 239);
+G2L["2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2b"]["TextColor3"] = Color3.fromRGB(0, 252, 255);
 G2L["2b"]["BackgroundTransparency"] = 1;
-G2L["2b"]["Size"] = UDim2.new(0.45501, 0, 0.09163, 0);
+G2L["2b"]["Size"] = UDim2.new(0, 394, 0, 159);
 G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2b"]["Text"] = [[VERIFY | ILDK HUB]];
-G2L["2b"]["Position"] = UDim2.new(0.01799, 0, 0, 0);
+G2L["2b"]["Text"] = [[WE very sorry script down becuse something function error we gonna make new gui/hub soon but old name is ILDK HUB THANK YOU we will back soon we very sorry for this. :(]];
+G2L["2b"]["Position"] = UDim2.new(0.11102, 0, 0.29088, 0);
+
+
+-- StarterGui.ishub.notify.TextLabel
+G2L["2c"] = Instance.new("TextLabel", G2L["22"]);
+G2L["2c"]["TextWrapped"] = true;
+G2L["2c"]["BorderSizePixel"] = 0;
+G2L["2c"]["TextScaled"] = true;
+G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2c"]["TextSize"] = 14;
+G2L["2c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Jura.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["2c"]["TextColor3"] = Color3.fromRGB(0, 255, 239);
+G2L["2c"]["BackgroundTransparency"] = 1;
+G2L["2c"]["Size"] = UDim2.new(0.45501, 0, 0.09163, 0);
+G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2c"]["Text"] = [[VERIFY | ILDK HUB]];
+G2L["2c"]["Position"] = UDim2.new(0.01799, 0, 0, 0);
 
 
 -- StarterGui.ishub.notify.UICorner
-G2L["2c"] = Instance.new("UICorner", G2L["21"]);
+G2L["2d"] = Instance.new("UICorner", G2L["22"]);
 
 
 
 -- StarterGui.ishub.notify.UIStroke
-G2L["2d"] = Instance.new("UIStroke", G2L["21"]);
-G2L["2d"]["Thickness"] = 0.9;
-G2L["2d"]["Color"] = Color3.fromRGB(255, 255, 255);
+G2L["2e"] = Instance.new("UIStroke", G2L["22"]);
+G2L["2e"]["Thickness"] = 0.9;
+G2L["2e"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 
 -- StarterGui.ishub.notify.UIStroke.UIGradient
-G2L["2e"] = Instance.new("UIGradient", G2L["2d"]);
-G2L["2e"]["Rotation"] = 34;
-G2L["2e"]["Offset"] = Vector2.new(0.6, 0.2);
-G2L["2e"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(0.493, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
+G2L["2f"] = Instance.new("UIGradient", G2L["2e"]);
+G2L["2f"]["Rotation"] = 34;
+G2L["2f"]["Offset"] = Vector2.new(0.6, 0.2);
+G2L["2f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),ColorSequenceKeypoint.new(0.493, Color3.fromRGB(0, 235, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(0, 0, 0))};
 
 
 -- StarterGui.ishub.notify.UIStroke.UIGradient.LocalScript
-G2L["2f"] = Instance.new("LocalScript", G2L["2e"]);
+G2L["30"] = Instance.new("LocalScript", G2L["2f"]);
 
 
 
@@ -478,32 +492,32 @@ local script = G2L["20"];
 end;
 task.spawn(C_20);
 -- StarterGui.ishub.notify.sdf.UIStroke.UIGradient.LocalScript
-local function C_26()
-local script = G2L["26"];
+local function C_27()
+local script = G2L["27"];
 	while true do
 		wait()
 		script.Parent.Rotation += 2
 	end
 end;
-task.spawn(C_26);
+task.spawn(C_27);
 -- StarterGui.ishub.notify.sdf.TextButton.GamePassPurchase
-local function C_29()
-local script = G2L["29"];
+local function C_2a()
+local script = G2L["2a"];
 	local fa = script.Parent
 	
 	fa.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.Parent.Parent.ishub:Remove()
 	end)
 end;
-task.spawn(C_29);
+task.spawn(C_2a);
 -- StarterGui.ishub.notify.UIStroke.UIGradient.LocalScript
-local function C_2f()
-local script = G2L["2f"];
+local function C_30()
+local script = G2L["30"];
 	while true do
 		wait()
 		script.Parent.Rotation += 2
 	end
 end;
-task.spawn(C_2f);
+task.spawn(C_30);
 
 return G2L["1"], require;
